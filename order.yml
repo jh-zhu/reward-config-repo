@@ -9,6 +9,11 @@ spring:
     initialization-mode: always
   jpa:
     show-sql: true  
+  rabbitmq:
+    hots: localhost
+    port: 5672
+    username: guest
+    password: guest
 
 server:
   port: 0
