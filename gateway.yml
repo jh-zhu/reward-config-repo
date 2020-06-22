@@ -1,2 +1,9 @@
 server:
   port: 9000
+
+
+zuul:
+  routes:
+    inventory:
+      path: /inventory/**
+      serviceId: product
